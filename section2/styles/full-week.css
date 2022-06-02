@@ -17,6 +17,7 @@ a:hover {
 }
 
 ol {
+    font-family: 'Fira Sans';
     list-style: none;
     width: 500px;
     margin: 36px auto 0 auto;
