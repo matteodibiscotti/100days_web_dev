@@ -1,11 +1,12 @@
 body {
     text-align: center;
     background-color: rgb(233, 215, 207);
-    color: rgb(83, 75, 75);
+    color: rgb(60, 55, 55);
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    color: rgb(60, 55, 55);
 }
 
 p {
