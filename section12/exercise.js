@@ -1,6 +1,8 @@
 // 1. Select the <h1> element by "drilling into the DOM" and 
 //    save it in a variable with a name of your choice
 let pageHeading = document.body.getElementsByTagName('h1')[0];
+pageHeading = document.body.firstElementChild;
+pageHeading = document.body.children[0];
 console.log(pageHeading.innerText);
 
 // 2. Use the variable from (1) and get access to the "parent"
@@ -8,10 +10,11 @@ console.log(pageHeading.innerText);
 //    BONUS: Try using the variable from (1) to get access to the 
 //    sibling element (i.e. the <p> element next to the <h1> element)
 console.log(pageHeading.parentElement.getElementsByTagName('p')[0].innerText);
+console.log(pageHeading.nextElementSibling.innerText);
 
 // 3. Select the <h1> element with getElementById and store in
 //    the same or a new variable (up to you)
-pageHeading = document.getElementById('page-title')
+pageHeading = document.getElementById('page-title');
 console.log(pageHeading.innerText);
 
 
