@@ -57,3 +57,13 @@ let person = {
 person.greet();
 //============================
 //Method example
+
+//============================
+let result = 5;
+
+result++;  //result = result + 1
+result--;  //result = result - 1
+result += 5;  //result = result + 5
+
+//============================
+//Math operations
